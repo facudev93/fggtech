@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+}
+.logo img{
+	margin-top: 10px;
+	width: 15%;
+	margin-left: 20px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	background: black;
+	padding-right: 20px;
+}
+
+.opciones-menu ul{
+	display: flex;
+	gap:1rem;
+}
+.opciones-menu ul li{
+	list-style: none;
+}
+.opciones-menu ul li a{
+	text-decoration: none;
+	color: white;
+	 font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1.2px;
+}
+#hom-anima{
+	animation:boton-animado 5s infinite;
+}
+@keyframes boton-animado{
+	["4463BE","010301","31376F","6756CF","7649BC"]);
+	    0% { color: white; } /* Color inicial */
+    25% { color: #7649BC; } /* Primer cambio */
+    50% { color: white; } /* Segundo cambio */
+    75% { color: #7649BC; } /* Tercer cambio */
+    100% { color: white; } /* Volver al color inicial */
+}
+.opciones-menu ul li a:hover{
+	color: #7328bd;
+	transition: 0.2s;
+}
+.banner-pantalla-rota{
+	background-image: url("img/banner-pantalla-rota.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+.banner-pantalla-rota{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.conteiner-text-banner{
+	width: 65%;
+
+}
+.exclusivo{
+	font-family: "Bebas Neue", sans-serif;
+
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 10px;
+	background: #e3e3e3;
+
+}
+.aprovecha h1{
+	font-size: 3rem;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 15px;
+  font-size: 4rem;
+  line-height: 100px;
+}
+.interes h1{
+		font-size: 3rem;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 15px;
+  font-size: 9rem;
+  line-height: 120px;
+
+}
+.reparacion-de-pantalla{
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.reparacion-de-pantalla h2{
+   margin-top: 20px;
+	font-size: 3rem;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 15px;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+
+}
+.iphone{
+	padding: 5px;
+	background: black;
+	text-align: center;
+}
+.iphone img{
+	width: 60px;
+}
+.conteiner-cotizacion{
+	width: 100%;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+}
+.cotizador{
+	width: 40%;
+	padding: 20px;
+}
+.cotizador h1{
+	line-height: 45px;
+	   margin-top: 20px;
+	text-align: left;
+	font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 5rem;
+}
+.subtitulo-cotizador h3{
+		text-align: left;
+ font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top:20px;
+  line-height: 18px;
+  color: white;
+
+}
+#violeta{
+	color: #7328bd;
+}
+.btn-cotizar{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding-top: 30px;
+
+}
+.btn-cotizar a{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+
+}
+.btn-cotizar a:hover{
+	
+	background:#7328bd;
+	color: black;
+	border: 2px solid #7328bd;
+	transition: 0.2s
+}
+.btn-cotizar a:active{
+	color: white;
+
+}
+
+.marcas-conteiner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.marcas-iconos{
+	gap:5rem;
+	display: flex;
+	align-items: center;
+}
+.marcas-iconos img{
+	padding: 10px;
+	width: 100px;
+	opacity: 70%; 
+	transition: 0.2s;
+
+
+}
+.marcas-iconos img:hover{
+	opacity: 100%;
+	transition: 0.2s;
+	transform: rotateY(10deg);
+}
+
+
+
+.galeria-cotizar-conteiner{
+
+	margin: 20px;
+	padding: 5px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.galeria-columnas{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 1rem;
+	margin-top: auto;
+}
+
+.cotizador-galeria-individual{
+
+	width: 300px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	position: relative;
+	/*filter: brightness(0.5);*/
+
+
+}
+
+.cotizador-galeria-individual p{
+	position: relative;
+}
+
+
+#cotizador-columna1{
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/presupuesto-online.png");
+}
+#cotizador-columna2{
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/tecnico-reparando.jpg");
+}
+#cotizador-columna3{
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("img/tienda-apple.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/tienda-apple.jpg");
+}
+.cotizador-galeria-individual h2{
+	margin-top: 0;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 300;
+	font-size: 2.3rem;
+	padding: 10px;
+}
+.cotizador-galeria-individual p{
+		font-family: "Bebas Neue", sans-serif;
+	font-size: 1.3rem;
+	padding: 20px;
+}
+.cotizador-galeria-individual a{
+	padding: 12px;
+	text-align: center;
+	background: white;
+	color: black;
+	text-decoration: none;
+	color: black;
+	font-family: "Bebas Neue", sans-serif;
+}
+.contenedor-servicios{
+	text-align: center;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.caja-servicios{
+	width: 80%;
+	margin-top: auto;
+
+}
+.caja-servicio-individual{
+	width: 300px;
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 400;
+   	font-style: normal;
+  	padding: 60px;
+}
+.caja-servicio-individual h1{
+	font-size: 1.2rem;
+	padding: 10px;
+}
+.caja-servicio-individual img{
+	width: 80px;
+}
+
+.footer{
+	width: 100%;
+	background: #000002;
+	display: flex;
+	align-items: center;
+
+}
+.logo-y-redes{
+
+	padding: 20px;
+}
+.logo-y-redes img{
+	width: 20%;
+}
+#social-media{
+	width: 200px;
+}
+.footer-conteiner{
+	text-align: left;
+	width: 60%;
+	padding: 2px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.vinculos-conteiner{
+	width: 300px;
+	margin-top: 20px;
+	padding: 10px;
+
+}
+.vinculos-conteiner ul li{
+	list-style:none;
+	padding: 5px;
+}
+.vinculos-conteiner ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.vinculos-conteiner ul li a:hover{
+	text-decoration: underline;
+}
+.maps img{
+	width: 80%;
+}
+.copyright{
+	text-align: center;
+}
+.copyright h1{
+		background: #000002;
+		color: white;
+		font-family: "Poppins", sans-serif;
+		font-size: 1rem;
+		font-weight: 200;
+		padding: 20px;
+}
+
+.contenedor-banner-servicios{
+	width: 100%;
+		display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.contenedor-banner-servicios h1{
+	font-size: 2.4rem;
+}
+.contenedor-banner-servicios h1,h4{
+	padding: 10px;
+	color:  white;
+	font-family: "Roboto", sans-serif;
+}
+.contenedor-imagen-servicios{
+	display: flex;
+	align-items: center;
+	justify-content: bottom;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/cientifico.jpg");
+}
